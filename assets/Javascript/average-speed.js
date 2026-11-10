@@ -10,12 +10,12 @@ f.addEventListener("submit", (event)=>{
     const dT = document.querySelector("#time").value
     const uS = document.querySelector("#distance-measurement-unit").value
     const uT = document.querySelector("#time-measurement-unit").value
+    const result = document.querySelector("#result")
 
     if (uS != "escolha" &&  uT != "escolha") {
         
         let vM = dS / dT
     
-        const result = document.querySelector("#result")
             result.parentElement.classList.remove("invisible")
             result.parentElement.classList.add("visible")
             result.innerText = vM + ` ${uS}/${uT}`

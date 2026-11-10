@@ -168,11 +168,10 @@ python3 -m http.server 8000
 ## 🔒 Segurança & Boas Práticas
 
 - **Sem backend e sem dados pessoais**: todos os cálculos acontecem no navegador.
-- **Validação simples**: os campos numéricos são `required`, e os scripts só verificam a escolha das unidades; a aceleração com tempo `0` resulta em `Infinity`.
-- **Velocidade média sem conversão**: a fórmula divide os valores como foram digitados e só concatena as unidades escolhidas (ex.: `km/min`).
-- **Script ausente**: `convert-units-of-measure.html` referencia `assets/Javascript/Validation.js`, que não existe no repositório (gera um 404 no console, sem afetar o cálculo).
-- **Dependências externas**: Ionicons (e Animate.css, carregado só no `index.html` e sem uso) vêm de CDN, sem SRI.
-- **Vídeo versionado**: `Documentation/Video.mp4` tem cerca de 50 MB e está no repositório.
+- **Validação simples**: os campos numéricos são `required`; os scripts verificam a escolha das unidades e, na aceleração, recusam tempo menor ou igual a zero com uma mensagem de erro.
+- **Velocidade média na unidade escolhida**: o resultado sai nas unidades informadas (ex.: `km/h`, `m/min`); a conversão entre unidades fica na calculadora de conversão de velocidade média.
+- **Dependências externas**: Ionicons vem de CDN, sem SRI.
+- **Vídeo de apresentação versionado**: `Documentation/Video.mp4` (cerca de 50 MB) é a apresentação do projeto e fica no repositório junto com a documentação.
 
 ---
 

@@ -10,7 +10,7 @@
 
 > Calculadoras de física no navegador: deslocamento, velocidade média, aceleração e conversão de unidades.
 
-A **Calculadora de Física** é um site estático feito em **HTML, CSS e JavaScript puro** pelo grupo da disciplina de **Análise e Projeto de Sistemas** do curso técnico de **Desenvolvimento de Sistemas** da **ETEC Camargo Aranha**. Cada cálculo tem a sua própria página com um formulário; o resultado é calculado no próprio navegador, sem servidor e sem dependências instaladas. O site está publicado no **GitHub Pages**: **[matheusnascimentods.github.io/systems-analysis-and-design](https://matheusnascimentods.github.io/systems-analysis-and-design/)**.
+A **Calculadora de Física** é um site estático feito em **HTML, CSS e JavaScript puro** pelo grupo da disciplina de **Análise e Projeto de Sistemas** do curso técnico de **Desenvolvimento de Sistemas** da **ETEC Professor Camargo Aranha**. Cada cálculo tem a sua própria página com um formulário; o resultado é calculado no próprio navegador, sem servidor e sem dependências instaladas. O site está publicado no **GitHub Pages**: **[matheusnascimentods.github.io/systems-analysis-and-design](https://matheusnascimentods.github.io/systems-analysis-and-design/)**.
 
 ```mermaid
 sequenceDiagram
@@ -177,7 +177,7 @@ python3 -m http.server 8000
 
 ## 👥 Créditos
 
-Trabalho em grupo da disciplina de Análise e Projeto de Sistemas (ETEC Camargo Aranha), conforme a página [`credits.html`](credits.html):
+Trabalho em grupo da disciplina de Análise e Projeto de Sistemas (ETEC Professor Camargo Aranha), conforme a página [`credits.html`](credits.html):
 
 | Integrante | Papel |
 | :--- | :--- |
